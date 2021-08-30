@@ -1,0 +1,91 @@
+{
+    "editor.cursorBlinking": "expand",
+    "editor.fontFamily": "'JetBrains Mono','Cascadia Code' ",
+    "terminal.integrated.fontFamily": "'Cascadia Code'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 15,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify",
+
+    },
+    "workbench.colorTheme": "Ayu Dark",
+    "files.autoSave": "afterDelay",
+
+
+
+    "editor.suggest.showStatusBar": true,
+
+    "autoimport.filesToScan": "**/*.{js,ts,tsx}",
+
+
+    "javascript.format.enable": false,
+    "vsintellicode.features.python.deepLearning": "disabled",
+    "vsintellicode.java.completionsEnabled": false,
+    "typescript.validate.enable": false,
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "js/ts.implicitProjectConfig.strictNullChecks": true,
+
+
+    // Controls if quick suggestions should show up while typing
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+
+
+    // Controls the delay in ms after which quick suggestions will show up.
+    "editor.quickSuggestionsDelay": 5,
+
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": true,
+
+    // Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
+    "editor.tabCompletion": "off",
+
+    // Controls whether sorting favours words that appear close to the cursor
+    "editor.suggest.localityBonus": true,
+
+    // Controls how suggestions are pre-selected when showing the suggest list
+    "editor.suggestSelection": "first",
+
+    // Enable word based suggestions
+    "editor.wordBasedSuggestions": false,
+
+    // Enable parameter hints
+    "editor.parameterHints.enabled": false,
+
+ 
+
+        "editor.acceptSuggestionOnEnter": true,
+
+        "typescript.tsserver.trace": "verbose",
+    
+        // Enable parameter hints
+        "editor.parameterHints": true,
+        "postfix.languages": [
+        
+            "javascript",
+            "typescript",
+            "javascriptreact",
+            "typescriptreact"
+        ],
+  
+        
+            "files.exclude": {
+                "**/.git": true,
+                "**/.DS_Store": true,
+                "**/*.js.map": true,
+                "**/*.js": {"when": "$(basename).ts"}
+            },
+         
+            "files.autoSaveDelay": 1000,
+            "typescript.disableAutomaticTypeAcquisition" :true  
+}
