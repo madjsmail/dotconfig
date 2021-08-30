@@ -1,0 +1,21 @@
+{
+  "include": ["controllers/**/*.js","models/**/*.js","routers/**/*.js","app.js"],
+  "exclude": ["**/node_modules/*", "node_modules", "src/common/icons/**/*"],
+  "compilerOptions": {
+      "module": "es6",
+      "checkJs": false,
+      "target": "es2020",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "classic",
+      "paths": {
+          "assets/*": ["~/alcumus/github/al-hestia/src/assets/*"],
+          "common/*": ["~/alcumus/github/al-hestia/src/common/*"],
+          "configuration/*": ["~/alcumus/github/al-hestia/src/configuration/*"],
+          "framework/*": ["~/alcumus/github/al-hestia/src/framework/*"],
+          "help/*": ["~/alcumus/github/al-hestia/src/help/*"],
+          "plugins/*": ["~/alcumus/github/al-hestia/src/plugins/*"],
+          "dynamic/*": ["~/alcumus/github/al-hestia/src/plugins-dynamic/*"],
+          "utils/*": ["~/alcumus/github/al-hestia/src/utils/*"]
+      }
+  }
+}
